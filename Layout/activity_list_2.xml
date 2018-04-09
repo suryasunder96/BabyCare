@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.babycare.List_Activity2">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="32dp">
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="224dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/d2" />
+
+            <TextView
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:text="0 to 8 Week Nice-to-haves for Baby"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="32dp"
+                android:text="Bottle-Feeding"
+                android:textColor="@color/gg"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:text="Bottle Warmer"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Thawing breast milk in warm water or warming a bottle of formula can take awhile. And, using a microwave or stovetop is simply out of the question as overheating and hot spots create too much burn risk as well as quality degradation.  " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:text="Bottle Brush"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text=" You won't get very far in the cleaning process without a good bottle brush at the ready. While it isn't an exciting gift to get or give, it might be a nice addition to a theme basket of feeding or cleaning items." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:text="Music "
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text=" Looking for the right music to soothe your savage beast? Elizabeth Mitchell's You are My Little Bird is a lovely collection of songs designed just for baby, but one which parents and the rest of the family will end up loving too."/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

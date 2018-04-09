@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.babycare.List_Activity1">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="32dp">
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="224dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sixm" />
+
+            <TextView
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:text="6 to 12 Month Must-haves"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="32dp"
+                android:text="Starting Solids"
+                android:textColor="@color/gg"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp"
+                android:text="High Chair"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Once baby starts eating solid foods it is easiest to execute when using a high chair. We looked at many of the top rated chairs in our Battle of the Best High Chair, the winners are the Peg Perego Siesta and Baby Bjorn.." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="150dp"
+                android:text="Spoon"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text=" Hard to feed little ones without a spoon. The Munchkin Silicone Spoons are easy to use, budget friendly spoons for baby." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="150dp"
+                android:text="Dish Set"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text=" If you have concerns about using plastic like we do, take a look at Untangled Living ANYware Collection Stainless Steel Dish Set. It is made from inert stainless steel that doesn't impart flavor to the contents and it is easy to wash and comes with a cute pattern on the bottom of the bowl and plate."/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

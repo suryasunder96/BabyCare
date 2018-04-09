@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.babycare.List_Activity3">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="32dp">
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="224dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/d3" />
+
+            <TextView
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:text="2 to 6 Month Must-haves"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:text="On the Go with Baby in Tow"
+                android:textColor="@color/gg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:text="Diaper Bag "
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text=" You won't get very far with baby without a diaper bag. No matter how minimalist you try to be there are always going to be items you'll need on hand when you leave the house. With diapers, wipes, and a change of clothes topping the list.  " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:text="Wet Bag"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:text=" It is nice to keep a wet bag inside baby's diaper bag for cloth diapers or dirty clothes for those moments when baby leaks or has a blow out. While the much larger Kanga Care Cloth Diaper Wet Bag is amazing for daycare and travel." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:text="Cooler "
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="If baby needs an expressed bottle while on the go, having a cooler is important to keep it fresh until feeding time.The Ju-Ju-Be Fuel Cell Insulated Bag (below left) fits several tall baby bottles with measurements of 9h x w x 4.25d. 3M Thinsulate keeps things cool or warm for a few hours, although a good ice pack is important for long outings. The best part is that like all Ju-Ju-Be bags, it is machine-washable."/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

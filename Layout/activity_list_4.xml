@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.babycare.List_Activity4">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="32dp">
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="224dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/one" />
+
+            <TextView
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:text="1+ Year Must-haves"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:text="Toddler Sleep"
+                android:textColor="@color/gg"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:text="Lovie "
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Some toddlers will still be lugging around their lovies from infancy, and that's ok. Whatever they need to keep or develop good sleep hygiene is a good thing  " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-100dp"
+                android:text="Color-Changing Clock"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="  My Tot Clock is a great color changing clock that can help children learn when it is time to sleep, and when it is okay to wake up. This can potentially increase the amount of time children stay asleep and how often they bug parents in the morning. For a review of the most popular toddler clocks on the market, take a look at our article about The Best Toddler Clocks." />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

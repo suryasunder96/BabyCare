@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.babycare.searchnames"
+    android:background="@drawable/ww">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ii" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/e1"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/search"
+            android:id="@+id/b3"/>
+
+
+        <ListView
+            android:layout_width="450dp"
+            android:layout_height="250dp"
+            android:id="@+id/list1"></ListView>
+       <Button
+              android:layout_width="50dp"
+             android:layout_height="50dp"
+           android:layout_marginLeft="300dp"
+           android:background="@drawable/home"
+           android:id="@+id/h1"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

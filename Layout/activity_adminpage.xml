@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adminb"
+    tools:context="com.example.hp.babycare.adminpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="2dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:fontFamily="cursive"
+            android:text="WELCOME ADMIN"
+            android:textAlignment="center"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="331dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/admin1" />
+
+        <Button
+            android:layout_width="158dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="110dp"
+            android:background="#14B7B5"
+            android:text="ADD NAMES"
+            android:id="@+id/b1"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
